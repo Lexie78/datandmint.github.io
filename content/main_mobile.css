@@ -403,9 +403,9 @@ float: left;
 	width: inherit;
 }
 
-.slide1 { background: url(img/map1_new.png);}
-.slide2  { background: url(img/map2_new.png);}
-.slide3  { background: url(img/map3_new_750.png);}
+.slide1 { background: url(img/MAP1.png);}
+.slide2  { background: url(img/MAP2.png);}
+.slide3  { background: url(img/MAP3.png);}
 
 .wrapper .controls {
 	left: 50%;
