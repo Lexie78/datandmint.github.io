@@ -377,12 +377,12 @@ float: left;
 
 .wrapper {
     float: left;
-	height: 465px;
+	height: 365px;
     margin-left: 65px;
 	margin-top: 10px;
     margin-bottom: 10px;
 	position: relative;
-	width: 750px;
+	width: 600px;
  overflow: hidden;
 }
 
@@ -403,9 +403,9 @@ float: left;
 	width: inherit;
 }
 
-.slide1 { background: url(img/MAP1.png);}
-.slide2  { background: url(img/MAP2.png);}
-.slide3  { background: url(img/MAP3.png);}
+.slide1 { background: url(img/MAP1_mobile.png);}
+.slide2  { background: url(img/MAP2_mobile.png);}
+.slide3  { background: url(img/MAP3_mobile.png);}
 
 .wrapper .controls {
 	left: 50%;
