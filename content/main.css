@@ -103,6 +103,8 @@ a:hover {
     width: 100%;
  overflow: hidden;
     margin-bottom: 20px;
+    
+    border-bottom: 1px solid rgba(216, 216, 216, 0.44);
   
 }
 
@@ -144,7 +146,7 @@ font-family:  "RobotoBold";
 
 .block_first_text_content {
      margin: 20px auto;
-    width: 980px;
+    width: 60%;
     overflow: hidden;
     font-size: 20px;
    font-family:  "RobotoLight";
@@ -153,6 +155,7 @@ font-family:  "RobotoBold";
 }
 
 .banner {
+    float: left;
     width: 100%;
     height: 600px; 
         background: url(img/1.png) no-repeat center center;
@@ -197,7 +200,7 @@ font-size: 75px;
 
 .footer_container {
     
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
   overflow: hidden;
 }
@@ -223,6 +226,16 @@ overflow: hidden;
     
 }
 
+.footer_container .footer_text_people_link {
+    float: left;
+  margin-top: 5px;
+    width: 450px;
+overflow: hidden;
+   
+    
+}
+
+
 
 .footer_text_people_title {
     
@@ -241,4 +254,101 @@ overflow: hidden;
     font-size: 15px;
     color: #000000;
     font-family: "RobotoLight";
+    cursor: pointer;
+}
+
+.footer_text_people_name:hover {
+  color: rgb(90, 132, 93);
+    cursor: pointer;
+      -moz-transition: color 0.2s 0.2s ease;
+-o-transition: color 0.2s 0.2s ease;
+-webkit-transition:  color 0.2s 0.2s ease;
+}
+
+
+.footer_text_people_link_name {
+      width: 100%;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 10px;
+    color: #000000;
+    font-family: "RobotoBold";
+    cursor: pointer;
+}
+
+.footer_text_people_link_name:hover {
+  color: rgb(90, 132, 93);
+    cursor: pointer;
+      -moz-transition: color 0.2s 0.2s ease;
+-o-transition: color 0.2s 0.2s ease;
+-webkit-transition:  color 0.2s 0.2s ease;
+}
+
+
+
+.hide {
+    display: none; 
+
+}
+.hide + label ~ div{
+    display: none;
+   
+}
+/* оформляем текст label */
+.hide + label {
+    border-bottom: 1px solid  rgb(90, 132, 93);;
+    padding: 0;
+     color: rgb(65, 65, 65);
+    cursor: pointer;
+    display: inline-block; 
+    text-align: center;
+
+     font-size: 16px;
+    font-family: "RobotoRegular";
+    
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: rgb(90, 132, 93);
+    border-bottom: 0;
+  
+    
+    
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block; 
+    background: rgba(114, 185, 119, 0.18);
+    -moz-box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
+    -webkit-box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
+    box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
+    padding: 10px; 
+    font-size: 13px;
+    font-family: "RobotoLight";
+     text-align: left;
+}
+
+/* demo контейнер */
+.demo {
+    margin: 0 auto;
+    width: 750px;
+     text-align: center;
+}
+
+
+.content {
+    position: relative;
+    margin-left: 9%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 60%;
+    overflow: hidden;
+}
+.content .content_text {
+    
+    font-size: 18px;
+    font-family: "RobotoLight";
+     text-align: left;
+    
 }
