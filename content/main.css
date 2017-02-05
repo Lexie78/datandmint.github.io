@@ -330,9 +330,13 @@ overflow: hidden;
 
 /* demo контейнер */
 .demo {
-    margin: 0 auto;
-    width: 750px;
-     text-align: center;
+   position: relative;
+    margin-left: 9%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 60%;
+    overflow: hidden;
 }
 
 
