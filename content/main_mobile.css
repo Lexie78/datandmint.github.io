@@ -190,7 +190,7 @@ overflow: hidden;
     float: left;
  
     margin-left: 50px;
-margin-top: 100px;
+margin-top: 50px;
    width: 90%;
    overflow: hidden;
 font-size: 45px;
@@ -204,7 +204,7 @@ font-size: 45px;
 .banner_header_text_second {
     float: left;
     margin-left: 50px;
-margin-top: 50px;
+margin-top: 20px;
    width: 90%;
    overflow: hidden;
 font-size: 35px;
