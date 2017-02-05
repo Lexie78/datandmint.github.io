@@ -144,6 +144,17 @@ font-family:  "RobotoBold";
     font-family:  "RobotoMedium";
 }
 
+.block_first_text_third {
+    
+    margin: 10px auto;
+    width: 100%;
+    overflow: hidden;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:  "RobotoRegular";
+}
+
 .block_first_text_content {
      margin: 20px auto;
     width: 60%;
