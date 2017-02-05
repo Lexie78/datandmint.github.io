@@ -403,9 +403,21 @@ float: left;
 	width: inherit;
 }
 
-.slide1 { background: url(img/map1_new.png);}
-.slide2  { background: url(img/map2_new.png);}
-.slide3  { background: url(img/map3_new_750.png);}
+.slide1 { background: url(img/map1_new.png);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;}
+.slide2  { background: url(img/map2_new.png);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;}
+.slide3  { background: url(img/map3_new_750.png);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;}
 
 .wrapper .controls {
 	left: 50%;
