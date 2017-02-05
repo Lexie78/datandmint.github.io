@@ -102,7 +102,7 @@ a:hover {
     top: 0;
     width: 100%;
  overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     
     border-bottom: 1px solid rgba(216, 216, 216, 0.44);
   
@@ -159,9 +159,9 @@ font-family:  "RobotoBold";
 
 .block_first_text_content {
      margin: 20px auto;
-    width: 60%;
+    width: 80%;
     overflow: hidden;
-    font-size: 20px;
+    font-size: 30px;
    font-family:  "RobotoLight";
     color: rgb(47, 47, 47);
     text-align: center;
@@ -331,12 +331,13 @@ overflow: hidden;
 /* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked + label + div {
     display: block; 
+    margin-top: 5px;
     background: rgba(114, 185, 119, 0.18);
     -moz-box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
     -webkit-box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
     box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
     padding: 10px; 
-    font-size: 13px;
+    font-size: 19px;
     font-family: "RobotoLight";
      text-align: left;
 }

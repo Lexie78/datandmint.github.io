@@ -334,6 +334,7 @@ float: left;
 /* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked + label + div {
     display: block; 
+    margin-top: 5px;
     background: rgba(114, 185, 119, 0.18);
     -moz-box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
     -webkit-box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
