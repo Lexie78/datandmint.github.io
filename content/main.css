@@ -525,3 +525,17 @@ overflow: hidden;
 -o-background-size: cover;
 background-size: cover;
 }
+
+.content_info_left {
+    position: relative;
+    float: left;
+    width: 55%;
+    overflow: hidden;
+}
+.content_info_right {
+    position: relative;
+     float: right;
+    margin-top: 240px;
+    width: 40%;
+     overflow: hidden;
+}
