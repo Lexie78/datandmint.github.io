@@ -204,11 +204,12 @@ font-size: 65px;
   overflow: hidden;
 }
 .footer_container .footer_logo {
-    width: 100%;
+    width: 85%;
+    margin-left: 10%;
     height: 500px;
 cursor: pointer;
-    float: left;;
-    margin: 0 auto;
+    float: left;
+   
      background: url(img/logo.jpg) no-repeat center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
