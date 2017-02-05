@@ -529,13 +529,21 @@ background-size: cover;
 .content_info_left {
     position: relative;
     float: left;
-    width: 55%;
+    width: 50%;
+    margin-left: 5px;
     overflow: hidden;
 }
 .content_info_right {
     position: relative;
      float: right;
-    margin-top: 240px;
-    width: 40%;
+margin-right: 5px;
+    width: 45%;
      overflow: hidden;
+}
+
+.buttom {
+    width: 650px;
+    height: 250px;
+}
+.buttom .buttom_text {
 }
