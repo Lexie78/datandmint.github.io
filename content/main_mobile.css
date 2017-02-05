@@ -326,7 +326,7 @@ float: left;
     -webkit-box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
     box-shadow: inset 3px 3px 10px rgba(125, 142, 143, 0.12);
     padding: 10px; 
-    font-size: 23px;
+    font-size: 28px;
     font-family: "RobotoLight";
      text-align: left;
 }
@@ -354,7 +354,7 @@ float: left;
 }
 .content .content_text {
     
-    font-size: 28px;
+    font-size: 30px;
     font-family: "RobotoLight";
      text-align: left;
 }
