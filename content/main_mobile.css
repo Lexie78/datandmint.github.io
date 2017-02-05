@@ -529,3 +529,22 @@ background-size: cover;
     width: 40%;
      overflow: hidden;
 }
+
+.buttom {
+position: relative;
+    margin: 0 auto;
+    width: 450px;
+    height: 100px;
+    background-color: rgb(76, 175, 83);
+    border-radius: 10px; 
+    cursor: pointer;
+    border: 1px solid #9a9a9a;
+}
+.buttom .buttom_text {
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "RobotoBold";
+    font-size: 30px;
+}
