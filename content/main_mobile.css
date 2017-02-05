@@ -492,3 +492,13 @@ float: left;
 	-o-transform: scale(1);
 	transform: scale(1);
 }
+
+.legenda {
+    float: left;
+    width: 100%;
+     background: url(img/legenda.png) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
